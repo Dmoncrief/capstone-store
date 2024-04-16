@@ -1,14 +1,24 @@
 .navbar{
     background-color: #F5F5DC;
     font-family: EB Garamond;
-    padding: 55px
+    padding: 45px;
+    font-size: 20px;
+    
 
+}
+.navbar-brand{
+    font-size:30px;
+}
 
+.carousel-item{
+    height: 35rem;
+    background-color: #D3D3D3
+}
+
+.test{
+    padding: 20px;
+    border: 20px solid black;
+    text-align:center;
 
 }
 
-.navbar{
-    background-color: #F5F5DC;
-    font-family: EB Garamond;
-
-}
