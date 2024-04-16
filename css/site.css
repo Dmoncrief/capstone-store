@@ -20,11 +20,12 @@
 }
 
 .test{
-    padding: 10px;
-    border: 20px solid #FFFDD0;
+    padding: 20px;
+    border: 20px solid #D3D3D3;
     text-align:center mb-5 mt-5;
     font-family: EB Garamond;
-    
+    padding-top: 75px;
+    background-color: #D3D3D3
     
 
 
@@ -34,7 +35,10 @@
     font-family: EB Garamond;
     padding: 20px;
     text-align:center;
-    border: 20px solid #FFFDD0;
+    border: 20px solid #D3D3D3;
+    width:24px;
+    margin: auto;
+
 }
 
 h1{
@@ -49,5 +53,8 @@ h1{
 p{
     font-family: EB Garamond;
     font-size: 20px;
+    
+
+
     
 }
