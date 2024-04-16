@@ -1,13 +1,14 @@
 .navbar{
-    background-color: #COCOCO;
+    background-color:#D3D3D3
     font-family: EB Garamond;
     padding: 45px;
     font-size: 20px;
     
-
 }
+
 .navbar-brand{
-    font-size:45px;
+    font-size:35px;
+    Font-family: EB garamond;
 }
 
 .carousel-item{
@@ -48,4 +49,5 @@ h1{
 p{
     font-family: EB Garamond;
     font-size: 20px;
+    
 }
