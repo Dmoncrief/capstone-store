@@ -1,5 +1,5 @@
 .navbar{
-    background-color:#D3D3D3
+    background-color:#F0F0F0;
     font-family: EB Garamond;
     padding: 45px;
     font-size: 20px;
@@ -35,9 +35,10 @@
     font-family: EB Garamond;
     padding: 20px;
     text-align:center;
-    border: 20px solid #D3D3D3;
+    border: 20px solid #F0F0F0;
     width:24px;
     margin: auto;
+
 
 }
 
@@ -54,7 +55,7 @@ p{
     font-family: EB Garamond;
     font-size: 20px;
     
-
-
-    
+}
+.Body{
+    background-color: #F0F0F0;
 }
