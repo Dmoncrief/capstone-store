@@ -13,6 +13,7 @@
 .carousel-item{
     height: 45rem;
     background-color: #D3D3D3
+    
 }
 
 .test{
@@ -37,4 +38,8 @@ h1{
     Font-family: EB Garamond;
     text-align: center;
     font-size:55px;
+}
+.h2{
+    font-family: EB Garamond;
+    text-align: center;
 }
