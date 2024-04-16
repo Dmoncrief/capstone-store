@@ -18,8 +18,9 @@
 .test{
     padding: 10px;
     border: 20px solid #FFFDD0;
-    text-align:center;
+    text-align:center mb-5 mt-5;
     font-family: EB Garamond;
+    
     
 
 
@@ -30,4 +31,9 @@
     padding: 20px;
     text-align:center;
     border: 20px solid #FFFDD0;
+}
+
+h1{
+    Font-family: EB Garamond;
+    text-align: center;
 }
