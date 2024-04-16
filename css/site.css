@@ -1,5 +1,5 @@
 .navbar{
-    background-color:#F0F0F0;
+    background-color:#BEB4A2;
     font-family: EB Garamond;
     padding: 45px;
     font-size: 20px;
@@ -63,4 +63,7 @@ p{
 }
 .Body{
     background-color: #F0F0F0;
+}
+.card{
+    background-color:#BEB4A2;
 }
