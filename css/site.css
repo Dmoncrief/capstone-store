@@ -11,8 +11,10 @@
 }
 
 .carousel-item{
-    height: 45rem;
-    background-color: #D3D3D3
+    height: 35rem;
+    background-color: #D3D3D3;
+
+
     
 }
 
@@ -42,4 +44,7 @@ h1{
 .h2{
     font-family: EB Garamond;
     text-align: center;
+}
+p{
+    font-family: EB Garamond;
 }
