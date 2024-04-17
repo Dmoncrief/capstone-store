@@ -42,6 +42,8 @@
 .login-style{
     background-color:#BEB4A2;
     font-family: EB Garamond;
+    border-width:700px;
+    font-size: 
 }
 
 .loginform{
@@ -76,7 +78,30 @@ p{
 }
 body{
     background-color: #F0F0F0;
+    text-align: center;
+    
 }
 .card{
     background-color:#BEB4A2;
+    margin: 25px;
+    height:500px;
+    width:300px;
+
+
+
+    
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.row{
+    justify-content:center;
+}
+img{
+    height:300px;
+    width:300px;
+    margin:5px;
+
 }
