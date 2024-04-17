@@ -12,7 +12,7 @@
 }
 
 .carousel-item{
-    height: 35rem;
+ height:35rem;
     background-color: #D3D3D3;
 
 
@@ -20,29 +20,42 @@
 }
 
 .test{
+    
     padding: 15px;
     border: 20px solid #D3D3D3 rounded;
-    text-align:center mb-5 mt-5;
+    text-align:center;
     font-family: EB Garamond;
     padding-top: 75px;
-    background-color: #BEB4A2;
     border-width: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 15px;
+    /* width: 700px; */
+    text-align: center;
+    border:center;
+    background-color:#BEB4A2;
+    
+    
+
+}
+
+.login-style{
+    background-color:#BEB4A2;
+    font-family: EB Garamond;
+}
+
+.loginform{
+    font-family: EB Garamond;
+    padding: 20px solid #D3D3D3 rounded;
+    text-align:center;
+    border: 20px solid #F0F0F0;
+    width:700px;
+    padding-top: 75px;
     border-radius: 5px;
     margin: 5px;
     border: 15px;
     width: 700px;
     text-align: center;
-
-
-}
-
-.container mt-3{
-    font-family: EB Garamond;
-    padding: 20px;
-    text-align:center;
-    border: 20px solid #F0F0F0;
-    width:700px;
-    margin: auto;
 
 
 }
@@ -61,7 +74,7 @@ p{
     font-size: 20px;
     
 }
-.Body{
+body{
     background-color: #F0F0F0;
 }
 .card{
