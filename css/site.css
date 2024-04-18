@@ -36,7 +36,7 @@ p{
 }
 
 #pink-tag{
-   background-image: linear-gradient(#D8BFD8,#e37383);
+   background-image: linear-gradient(#D8BFD8,#9a5a63);
   background-repeat: repeat;
 
   -webkit-background-clip: text;
@@ -44,7 +44,7 @@ p{
   -webkit-text-fill-color:transparent;
 }
 #pink-sub-tag{
-  background-image: linear-gradient(#D8BFD8,#e37383);
+  background-image: linear-gradient(#D8BFD8,#7b3a44);
   background-repeat: repeat;
 
   -webkit-background-clip: text;
