@@ -120,12 +120,18 @@ p{
     height:500px;
     width:300px;
     font-family: EB Garamond;
+   
+  }
 
 
+#checkout-info{
 
-    
+  margin-bottom: 10px;
 
 }
+    
+
+
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -419,5 +425,17 @@ body {
 }
 
 #sidebar{
-  display:flex;
+  justify-content: flex-end;
 }
+
+#list{
+  float:right;
+}
+#form-2{
+  
+  display:flex;
+  flex: center;
+  justify-content:center;
+  
+}
+

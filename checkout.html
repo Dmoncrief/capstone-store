@@ -10,6 +10,7 @@
     <link href="css/site.css" rel="stylesheet">
 </head>
 
+
 <body>
     <div class="all-content">
         <!-- navbar start-->
@@ -61,54 +62,65 @@
             </div>
         </nav>
     </header>
+    <h1>Checkout</h1>
 
     <main>
-        <div class="container">
-        <section class="py-5">
-            <div class="container px-4 px-lg-5 mt-5">
-              <div class="card" style="width: 50%; margin: 0 auto; padding: 20px">
-                    <form class="row g-3">
-                      <div class="col-md-6">
-                        <label for="inputFirstName4" class="form-label">First Name</label>
-                        <input type="name" class="form-control" id="fnputFirstName4" placeholder="Ex: Nancy " />
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputLastName4" class="form-label">Last Name</label>
-                        <input type="name" class="form-control" id="inputLastName4" placeholder="Ex: Thompson " />
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputemail4" class="form-label">Email</label>
-                        <input type="name" class="form-control" id="fnputFirstName4" placeholder="Ex: " />
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputLastName4" class="form-label">Phone</label>
-                        <input type="name" class="form-control" id="inputLastName4" placeholder="Ex: " />
-                      </div>
-                        <div class="col-md-6">
-                        <label for="inputFirstName4" class="form-label">Address</label>
-                        <input type="name" class="form-control" id="fnputFirstName4" placeholder="Ex:1428 Elm Street "/>
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputLastName4" class="form-label">City</label>
-                        <input type="name" class="form-control" id="inputLastName4" placeholder="Ex:Springwood " />
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputFirstName4" class="form-label">State</label>
-                        <input type="name" class="form-control" id="fnputFirstName4" placeholder="Ex:Ohio "/>
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputLastName4" class="form-label">Zip</label>
-                        <input type="name" class="form-control" id="inputLastName4" placeholder="Ex:12345 " />
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputLastName4" class="form-label">Credit Card Number</label>
-                        <input type="name" class="form-control" id="inputLastName4" placeholder="Ex:123456789 " />
-                      </div>
-                      <div class="col-md-6">
-                        <label for="inputLastName4" class="form-label">CVV</label>
-                        <input type="name" class="form-control" id="inputLastName4" placeholder="Ex:111 " />
-                        
-                      </div> 
+        <div id="form-2" class="col-md-4 container">
+
+        
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltipUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                  Please choose a unique and valid username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 position-relative">
+              <label for="validationTooltip03" class="form-label">City</label>
+              <input type="text" class="form-control" id="validationTooltip03" required>
+              <div class="invalid-tooltip">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3 position-relative">
+              <label for="validationTooltip04" class="form-label">State</label>
+              <select class="form-select" id="validationTooltip04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-tooltip">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3 position-relative">
+              <label for="validationTooltip05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationTooltip05" required>
+              <div class="invalid-tooltip">
+                Please provide a valid zip.
+              </div>
+            </div>
+           
+          </form>
+        </div>
+          <br>
                       <div id="sidebar" class="container col-md-4">
                       <table class="table">
                         <thead>
@@ -148,14 +160,15 @@
                       </table>
                       <button type="submit" class="btn btn-primary">Submit Order</button>
                       </div>
-                    </form>
+                    
                 
                   </div>
                 
               </div>
         </section>
-    </div>
-                    
+    
+   
+         
 
                     
                     
