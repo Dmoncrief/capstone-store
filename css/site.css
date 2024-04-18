@@ -418,5 +418,6 @@ body {
   white-space: nowrap;
 }
 
-
-
+#sidebar{
+  display:flex;
+}
