@@ -11,7 +11,22 @@
     Font-family: EB garamond;
 }
     
+/* home page header */
+#glow-image{
+  margin-right: 30px;
 
+  display: block;
+
+}
+.mask{
+  background-image: url(https://attachments.office.net/owa/DMoncrief%40appdev.yearup.org/service.svc/s/GetAttachmentThumbnail?id=AAMkADAyZDFhZDhkLWM3MDUtNGEzNC1hYWM2LTc5YmZhOGM4NDgxMgBGAAAAAACgkE0wSgSIR7JQrFfot%2BkRBwBuiaqd6G6GQbLr12xmHDvaAAAAAAEMAABuiaqd6G6GQbLr12xmHDvaAAAbNDfPAAABEgAQANpTxlISy2BOsavh6gXIeJ8%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IkU1RDJGMEY4REE5M0I2NzA5QzQzQTlFOEE2MTQzQzAzRDYyRjlBODAiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI1ZEx3LU5xVHRuQ2NRNm5vcGhROEE5WXZtb0EifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiZWE4YWZkMmZjZmMzNDc4ZmJjMWRlYzhjNjcyMDg1NDIiLCJzaWduaW5fc3RhdGUiOiJrbXNpIiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEBiYmNlNWMzNy1mMTgxLTRkMGMtOTMxMC03Zjg3NzMzNmUxY2YiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInB1aWRcIjpcIjExNTM4MDExMjgzODc2MjUxOTZcIixcInNjb3BlXCI6XCJPd2FEb3dubG9hZFwiLFwib2lkXCI6XCI4YzEwZDBkNS0zNjRmLTQwYzUtODVmMS0wNDZhNWY4NDhhN2JcIixcInByaW1hcnlzaWRcIjpcIlMtMS01LTIxLTYxMjQ2MjMxNC0zNjc4Mjc5NDgyLTM1MTU4ODk3NDgtNDUwMDI1NTVcIn0iLCJuYmYiOjE3MTM0NDcwMTQsImV4cCI6MTcxMzQ0NzMxNCwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGJiY2U1YzM3LWYxODEtNGQwYy05MzEwLTdmODc3MzM2ZTFjZiIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGJiY2U1YzM3LWYxODEtNGQwYy05MzEwLTdmODc3MzM2ZTFjZiIsImhhcHAiOiJvd2EifQ.b1HwEUY8XmJ2VO46BkCjP38tkpVYJUN1YMKkjaC4miJJAFKUul_09Wsyzd_-n0z3ECJULG7nEJTLfgB7BtiejdukrZmMKvPukmKYLDnuFSMs74qUA8V1QEUMzeUucSy3X5yjdEFHia2pHzBu9jZFwA8xmISyPBXOd5TddSE386vfUhKk6GbFB8NFLwJRSP0QV0ZcToK9G5Snr2kfAlMt6OlOr9FnPB0GHNKZUfMg4cJjDbOJ1Dzf516yke31tmXN0qkHWeMeRN9vmsJz7Apcq1lUGkSbd16eulIqmxDEYZkwq-kp1PFycIa7v9ryYIlGC9NmDAGyLzNJnTLV_4EuMQ&X-OWA-CANARY=bdvoV9AzCSEAAAAAAAAAAHAf77KrX9wYvybXOUTRY1ZMJW5Q8Ddebh0bdpjH3L6OiqE-bANK4rU.&owa=outlook.office.com&scriptVer=20240405002.17&clientId=3C1F1225FBE54D3D83E1241E433C98DD&animation=true); 
+
+  background-repeat: repeat ;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color:transparent
+}
 
 .test{
     
@@ -70,8 +85,8 @@ p{
     font-size: 20px;
     
 }
-body{
-    background-color: #F0F0F0;
+#homepage-body{
+    background-color:#F0F0F0;
     text-align: center;
     
 }
@@ -129,7 +144,7 @@ html {
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #f0f0f0;
 }
 
 .page-wrapper {
